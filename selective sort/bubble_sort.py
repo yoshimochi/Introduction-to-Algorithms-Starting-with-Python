@@ -9,5 +9,6 @@ for i in range(len(data)):
         print((data[j + 1]))
         if data[j] > data[j + 1]: # 前が大きいとき
             data[j], data[j + 1] = data[j + 1], data[j]
+        print(data)
 
 print(data)
