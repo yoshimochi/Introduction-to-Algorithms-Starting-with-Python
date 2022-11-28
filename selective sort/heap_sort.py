@@ -16,7 +16,7 @@ for i in range(len(data), 0, -1):
     j = 0
 
     while ((2 * j + 1 < i - 1) and (data[j] < data[2 * j + 1]))\
-        or ((2 * j + 1 < i - 1) and (data[j] < data[2 * j + 2])):
+        or ((2 * j + 2 < i - 1) and (data[j] < data[2 * j + 2])):
 
         if (2 * j + 2 == i - 1) or (data[2 * j + 1] > data[2 * j + 2]):
             # 左下と交換
